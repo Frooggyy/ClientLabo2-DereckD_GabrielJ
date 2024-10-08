@@ -27,7 +27,7 @@ function renderError(message) {
     $("#tests").append(
         $(`
             <div class="errorContainer">
-                ${message}
+                <span>ERROR ===> ${message}</span>
             </div>
         `)
     );
